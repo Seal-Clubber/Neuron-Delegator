@@ -69,7 +69,7 @@ async def main():
         # Open the corresponding tab
         joined = quote(" ".join(group))  # encode spaces as %20
         url = f"http://127.0.0.1:24601/stake/for/address/{joined}"
-        #webbrowser.open_new_tab(url)
+        webbrowser.open_new_tab(url)
 
     print(f"Total wallets: {len(wallets)}")
 
